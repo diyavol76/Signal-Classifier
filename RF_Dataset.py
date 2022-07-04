@@ -28,7 +28,8 @@ class RF_Dataset(torch.utils.data.Dataset):
         raw_signal = np.fromfile(os.path.join(self.images_folder,mac_path, filename+".bin"), dtype="int16")
         IQ_signal = raw_signal[0::2] + 1j * raw_signal[1::2]
         signal_data=IQ_signal[:1024]
-        #if self.transform is not None:
-        #    image = self.transform(image)
+
+        if self.transform is not None:
+            signal_data = self.transform(signal_data)
         return signal_data, label
 

@@ -29,7 +29,7 @@ if __name__ == '__main__':
     #print(csv_m['transmitter_address'].value_counts())
 
     new_csv=SNR_selective(csv)
-    #print(new_csv['transmitter_address'].value_counts())
+    print(new_csv['transmitter_address'].value_counts())
 
     #new_csv_2=Time_selective(csv)
     #print(new_csv_2['transmitter_address'].value_counts())
