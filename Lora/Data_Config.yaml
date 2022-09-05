@@ -1,0 +1,3 @@
+DATA_DEV:
+  LORA_PATH: 'D:\iot\lora\Lora_Records\new_dataset\concatenated'
+  TEXT_PATH: 'D:\iot\lora\Lora_Records\new_dataset\concatenated\concatenated.csv'

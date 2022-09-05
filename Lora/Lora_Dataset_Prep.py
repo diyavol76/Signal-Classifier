@@ -141,7 +141,7 @@ def awgn(data, snr_range):
 
     return data
 
-dataset_path=r'D:\iot\data\net\dataset'
+dataset_path=r'D:\iot\data\net\lora-rffi\dataset'
 model_path=r'D:\iot\data\net\models'
 
 if __name__ == '__main__':
